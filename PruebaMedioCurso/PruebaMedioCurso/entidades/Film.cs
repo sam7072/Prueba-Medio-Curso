@@ -15,14 +15,16 @@ namespace Modelo.entidades
         public int LanguageID { get; set; }
         public string rentalDuration { get; set; }
         public string rentalRate { get; set; }
+        public string length { get; set; }
         public decimal replacementCost { get; set; }
         public string rating { get; set; }
+        public string lastUpdate { get; set; }
         public string specialFeatures { get; set; }
         public string fullText { get; set; }
 
 
 
-        public Language Language { get; set; }
+        public List<Language> Language { get; set; }
 
     }
 }
