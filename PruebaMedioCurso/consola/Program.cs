@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Modelo.entidades;
+using ModeloDB;
 
 namespace consola
 {
@@ -120,6 +121,11 @@ namespace consola
 
 
             };
+
+
+            PruebaDB res = new PruebaDB();
+            res.actors.Add(act1);
+            res.SaveChanges();
 
 
 
