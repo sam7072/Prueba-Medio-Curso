@@ -13,7 +13,7 @@ namespace ModeloDB
 
         public DbSet<Actor> actors { get; set; }
         public DbSet<Category> categories { get; set; }
-        //public DbSet<Film_Actor> film_Actors { get; set; }
+        public DbSet<Film_Actor> film_Actors { get; set; }
 
 
 
